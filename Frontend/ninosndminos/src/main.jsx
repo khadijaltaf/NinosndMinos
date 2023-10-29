@@ -2,7 +2,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import { createBrowserRouter, RouterProvider } from 'react-router-dom';
-import Nav from './Components/Navbar/Nav.jsx';
+import Nav from './Components/Navbar/Nav1.jsx';
 import Home from './Components/HomePage/Homepage.jsx'
 import Footer from './Components/Footer/Footer.jsx'
 import Login from './Components/Login/Login.jsx'
