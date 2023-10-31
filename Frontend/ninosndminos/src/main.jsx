@@ -8,6 +8,7 @@ import Footer from './Components/Footer/Footer.jsx'
 import Login from './Components/Login/Login.jsx'
 import Profile from './Components/Profile/Profile.jsx';
 import Signup from './Components/Signup/Signup.jsx'
+import './index.css'
 
 
 
