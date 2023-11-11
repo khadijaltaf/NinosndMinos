@@ -13,8 +13,7 @@ function App() {
       
     
     <ErrorBoundary>
-      <Nav />
-      
+      <Homepage/>
     </ErrorBoundary>
 
 
