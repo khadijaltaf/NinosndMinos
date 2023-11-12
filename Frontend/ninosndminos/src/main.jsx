@@ -7,6 +7,8 @@ import Footer from "./Components/Footer/Footer.jsx";
 import Login from "./Components/Login/Login.jsx";
 import Profile from "./Components/Profile/Profile.jsx";
 import Signup from "./Components/Signup/Signup.jsx";
+import Cart from './Components/Cart/Cart.jsx';
+import Search from './Components/Search/Search.jsx';
 import "./index.css";
 
 const routes = createBrowserRouter([
@@ -26,28 +28,25 @@ const routes = createBrowserRouter([
         path: "/login",
         element: <Login />,
       },
+      // {
+      //   // path: "/",
+      //   element: <Signup />,
+      // },
       {
-        // path: "/",
-        element: <Signup />,
+        path: "/profile",
+        element: <Profile />,
       },
       {
-        // path: "/",
-        element: <Profile />,
+        path: "/search",
+        element: <Search />,
+      },
+      {
+        path: "/cart",
+        element: <Cart />,
       },
     ],
   },
-  {
-    path: "/",
-    element: <Home />,
-  },
-  {
-    // path: "/",
-    element: <Login />,
-  },
-  {
-    // path: "/",
-    element: <Signup />,
-  },
+  
 ]);
 
 ReactDOM.createRoot(document.getElementById("root")).render(

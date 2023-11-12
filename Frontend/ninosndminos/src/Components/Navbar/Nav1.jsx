@@ -2,6 +2,8 @@ import React from "react";
 // import './Nav1.js'
 import "./Nav1.css";
 import logo from "../../assets/blacklogo.png";
+import { Link} from 'react-router-dom';
+
 
 const Nav1 = () => {
   return (
@@ -20,20 +22,20 @@ const Nav1 = () => {
             </button>
             
           </div>
-          <a href="#">
-              <img src={logo} alt="" className="size" />
+          <a href="#"><Link to='/'>
+              <img src={logo} alt="" className="size" /></Link>
             </a>
           <div >
             <ul>
               <li>
-                <a href="#" className="topnav-right">Search</a>
+                <a className="topnav-right"><Link to='/search'>Search</Link></a>
               </li>
               <li>
-                <a href="#" className="topnav-right">Login</a>
+                <a className="topnav-right"><Link to='/login'>Login</Link></a>
               </li>
               <li>
-                <a href="#" className="topnav-right">
-                <i class="fa-solid fa-briefcase"></i>
+                <a className="topnav-right">
+                <Link to='/cart'><i class="fa-solid fa-briefcase"></i></Link>
                 </a>
               </li>
               <li>
@@ -78,42 +80,45 @@ const Nav1 = () => {
                   <a href="#">Best Seller</a>
                 </li>
                 <li>
-                  <a href="#">New Release</a>
+                  <a href="#">Releases</a>
                 </li>
                 <li>
-                  <a href="#">Movers and Shakers</a>
+                  <a href="#">Shakers</a>
                 </li>
               </ul>
+              <br />
               <hr />
               <ul>
                 <li>
-                  <div class="title">Digital contetn And Divices</div>
+                  <div class="title">Digital Divices</div>
                 </li>
                 <li>
                   <a href="#">Best Seller</a>
                 </li>
                 <li>
-                  <a href="#">New Release</a>
+                  <a href="#">Release</a>
                 </li>
                 <li>
                   <a href="#">Movers and Shakers</a>
                 </li>
               </ul>
+              <br />
               <hr />
               <ul>
                 <li>
-                  <div class="title">Shop by category</div>
+                  <div class="title">category</div>
                 </li>
                 <li>
                   <a href="#">Best Seller</a>
                 </li>
                 <li>
-                  <a href="#">New Release</a>
+                  <a href="#">Release</a>
                 </li>
                 <li>
-                  <a href="#">Movers and Shakers</a>
+                  <a href="#">Movers</a>
                 </li>
               </ul>
+              <br />
               <hr />
               <ul>
                 <li>
@@ -123,12 +128,13 @@ const Nav1 = () => {
                   <a href="#">Best Seller</a>
                 </li>
                 <li>
-                  <a href="#">New Release</a>
+                  <a href="#">Release</a>
                 </li>
                 <li>
-                  <a href="#">Movers and Shakers</a>
+                  <a href="#">Movers </a>
                 </li>
               </ul>
+              <br />
               <hr />
               <ul>
                 <li>
@@ -138,10 +144,26 @@ const Nav1 = () => {
                   <a href="#">Best Seller</a>
                 </li>
                 <li>
-                  <a href="#">New Release</a>
+                  <a href="#">Release</a>
                 </li>
                 <li>
                   <a href="#">Movers and Shakers</a>
+                </li>
+              </ul>
+              <br />
+<hr />
+              <ul>
+                <li>
+                  <div class="title">Additional</div>
+                </li>
+                <li>
+                  <a href="#"><Link to='/search'>Search</Link></a>
+                </li>
+                <li>
+                  <a href="#"><Link to='/login'>Login</Link></a>
+                </li>
+                <li>
+                  <a href="#"><Link to='/cart'>Your Cart</Link></a>
                 </li>
               </ul>
             </div>

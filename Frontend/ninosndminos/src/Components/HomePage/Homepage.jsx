@@ -24,12 +24,41 @@
 
 
 import React from 'react';
-import Fi
-
+import Fullpage, {FullPageSections, FullpageSection, FullpageNavigation}  from '@ap.cx/react-fullpage';
+import "./Homepage.css";
+import Nav1 from "../Navbar/Nav1.jsx";
+import Footer from '../Footer/Footer.jsx'
 
 const Homepage = () => {
   return (
-    <div>Homepage</div>
+    <>
+    <Nav1 />
+    <Fullpage>
+      <FullpageNavigation />
+      <FullPageSections>
+        <FullpageSection className='screen1'>
+          <h1>screen1</h1>
+        </FullpageSection>
+
+        <FullpageSection className='screen2'>
+          <h1>screen2</h1>
+        </FullpageSection>
+
+        <FullpageSection className='screen3'>
+          <h1>screen3</h1>
+        </FullpageSection>
+
+        <FullpageSection className='screen4'>
+          <h1>screen4</h1>
+        </FullpageSection>
+
+        <FullpageSection className='screens'>
+          <h1><Footer /></h1>
+        </FullpageSection>
+      </FullPageSections>
+    </Fullpage>
+
+    </>
   )
 }
 
