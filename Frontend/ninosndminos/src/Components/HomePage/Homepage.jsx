@@ -5,7 +5,7 @@
 // import "./Homepage.css";
 
 // const Homepage = () => {
- 
+
 //   return (
 //     <>
 //       <Nav1 />
@@ -22,44 +22,59 @@
 
 // export default Homepage;
 
-
-import React from 'react';
-import Fullpage, {FullPageSections, FullpageSection, FullpageNavigation}  from '@ap.cx/react-fullpage';
+import React from "react";
+import Fullpage, {
+  FullPageSections,
+  FullpageSection,
+  FullpageNavigation,
+} from "@ap.cx/react-fullpage";
 import "./Homepage.css";
 import Nav1 from "../Navbar/Nav1.jsx";
-import Footer from '../Footer/Footer.jsx'
+import Footer from "../Footer/Footer.jsx";
+// import NavB from '../NavBottom/NavB.jsx';
 
 const Homepage = () => {
   return (
     <>
-    <Nav1 />
-    <Fullpage>
-      <FullpageNavigation />
-      <FullPageSections>
-        <FullpageSection className='screen1'>
-          <h1>screen1</h1>
-        </FullpageSection>
+      <Nav1 />
 
-        <FullpageSection className='screen2'>
-          <h1>screen2</h1>
-        </FullpageSection>
+      <Fullpage>
+        <FullpageNavigation />
+        <FullPageSections>
+          <section id="sec1">
+            <FullpageSection className="screen1">
+              <h1>Screen01</h1>
+              {/* <NavB /> */}
+            </FullpageSection>
+          </section>
 
-        <FullpageSection className='screen3'>
-          <h1>screen3</h1>
-        </FullpageSection>
+          <section id="sec2">
+            <FullpageSection className="screen2">
+              <h1>screen2</h1>
+              {/* <NavB /> */}
+            </FullpageSection>
+          </section>
 
-        <FullpageSection className='screen4'>
+          <section id="sec3">
+            <FullpageSection className="screen3">
+              <h1>screen3</h1>
+              {/* <NavB /> */}
+            </FullpageSection>
+          </section>
+
+          {/* <FullpageSection className='screen4'>
           <h1>screen4</h1>
-        </FullpageSection>
+        </FullpageSection> */}
 
-        <FullpageSection className='screens'>
-          <h1><Footer /></h1>
-        </FullpageSection>
-      </FullPageSections>
-    </Fullpage>
-
+          <FullpageSection className="screens">
+            <h1>
+              <Footer />
+            </h1>
+          </FullpageSection>
+        </FullPageSections>
+      </Fullpage>
     </>
-  )
-}
+  );
+};
 
-export default Homepage
+export default Homepage;

@@ -10,6 +10,8 @@ import Signup from "./Components/Signup/Signup.jsx";
 import Cart from './Components/Cart/Cart.jsx';
 import Search from './Components/Search/Search.jsx';
 import "./index.css";
+import About from "./Components/About/About.jsx";
+import Boys from "./Components/Boys/Boys.jsx";
 
 const routes = createBrowserRouter([
   {
@@ -44,6 +46,14 @@ const routes = createBrowserRouter([
         path: "/cart",
         element: <Cart />,
       },
+      {
+        path: "/about",
+        element: <About />,
+      },
+      {
+        path: "/boys-section",
+        element: <Boys />,
+      }
     ],
   },
   

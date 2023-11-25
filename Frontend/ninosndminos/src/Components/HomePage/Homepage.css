@@ -43,37 +43,35 @@
 
 
 .screen1{
+  background-image: url('../../assets/01s.png');
+  background-size: cover;
   height: 100vh;
   width: 100%;
-  background: #b6acac;
+  /* background: #b6acac; */
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
 .screen2{
+  background-image: url('../../assets/02s.png');
+  background-size: cover;
   height: 100vh;
   width: 100%;
-  background: #b6acac;
+  /* background: #b6acac; */
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
 .screen3{
+  background-image: url('../../assets/03.png');
+  background-size: cover;
   height: 100vh;
   width: 100%;
-  background: #b6acac;
+  /* background: #b6acac; */
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
-.screen4{
-  height: 100vh;
-  width: 100%;
-  background: #b6acac;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}

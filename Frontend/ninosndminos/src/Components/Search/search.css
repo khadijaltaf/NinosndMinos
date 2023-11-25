@@ -11,16 +11,19 @@
 
 
 #nav {
-    margin-top: 20p;
+    margin-top: 20px;
     width: 300px;
     height: 50px;
-    margin-left: auto;
-    margin-right: auto;
+    margin-left: 40%;
+
   }
   
-.urs {
+ .urs {
     width: 100px;
     background-color: rgba(0, 0, 0, 0);
+    gap: 5rem;
+    justify-content: center;
+    display: flex;
     float: left;
     height: 50px;
     text-align: center;
