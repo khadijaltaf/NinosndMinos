@@ -3,11 +3,15 @@ import Nav1 from "../Navbar/Nav1.jsx";
 import "./About.css";
 import Footer from "../Footer/Footer.jsx";
 // import Contact from "../Contact/Contact.jsx";
+import Second from '../Second/Second.jsx'
+
 
 const About = () => {
   return (
     <div>
       <Nav1 />
+      <Second/>
+
 <center>
       <div class="sm:flex items-center max-w-screen-xl p-15 sm:p-16 md:p-24">
         <div class="sm:mr-10">

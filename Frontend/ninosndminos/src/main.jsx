@@ -12,6 +12,10 @@ import Search from './Components/Search/Search.jsx';
 import "./index.css";
 import About from "./Components/About/About.jsx";
 import Boys from "./Components/Boys/Boys.jsx";
+import Girls from "./Components/Girls/Girls.jsx";
+import Faq from "./Components/FAQ/Faq.jsx";
+import Terms from "./Components/Terms/Terms.jsx";
+import Policy from "./Components/Policy/Policy.jsx";
 
 const routes = createBrowserRouter([
   {
@@ -53,6 +57,22 @@ const routes = createBrowserRouter([
       {
         path: "/boys-section",
         element: <Boys />,
+      },
+      {
+        path: "/girls-section",
+        element: <Girls />,
+      },
+      {
+        path: "/faq",
+        element: <Faq />,
+      },
+      {
+        path: "/policy",
+        element: <Policy />,
+      },
+      {
+        path: "/terms",
+        element: <Terms />,
       }
     ],
   },
@@ -61,6 +81,6 @@ const routes = createBrowserRouter([
 
 ReactDOM.createRoot(document.getElementById("root")).render(
   <React.StrictMode>
-    <RouterProvider router={routes} />
+    <RouterProvider router={routes}/>
   </React.StrictMode>
 );

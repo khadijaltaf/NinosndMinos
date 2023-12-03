@@ -1,11 +1,13 @@
 import React from 'react'
 import Nav1 from '../Navbar/Nav1.jsx'
 import Footer from '../Footer/Footer.jsx'
+import Second from '../Second/Second.jsx'
 
 const Login = () => {
   return (
     <div>
       <Nav1 />
+      <Second/>
       <div class="flex flex-col items-center justify-center h-screen">
         <div class="w-full max-w-md bg-white rounded-lg shadow-md p-6">
         <h2 class="text-2xl font-bold text-gray-900 mb-4">Login</h2>

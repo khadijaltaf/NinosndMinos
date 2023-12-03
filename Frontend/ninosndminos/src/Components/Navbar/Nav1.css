@@ -7,9 +7,12 @@
   box-sizing: border-box;
 }
 
-html {
+/* html {
   font-family: "Montserrat", sans-serif;
-}
+} */
+
+
+
 
 img{
     width: 10rem;
@@ -18,10 +21,16 @@ img{
     margin-bottom: 3px;
 }
 
+.sizes{
+  font-size: 18px;
+  font-weight: lighter;
+  
+}
+
 .top-bar {
   display: flex;
   min-height: 50px;
-  background: #fffefe;
+  background: #fffefe27;
   color: #000000;
   align-items: center;
   flex-wrap: wrap;

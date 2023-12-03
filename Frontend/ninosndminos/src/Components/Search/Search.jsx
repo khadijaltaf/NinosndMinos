@@ -3,11 +3,13 @@ import Nav1 from "../Navbar/Nav1.jsx";
 import Footer from "../Footer/Footer.jsx";
 import "./search.css";
 import { Link } from "react-router-dom";
+import Second from '../Second/Second.jsx'
 
 const Search = () => {
   return (
     <div>
       <Nav1 />
+      <Second />
       <div>
         <hr />
         <div id="nav" className="urs">

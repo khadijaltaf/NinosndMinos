@@ -29,50 +29,73 @@ import Fullpage, {
   FullpageNavigation,
 } from "@ap.cx/react-fullpage";
 import "./Homepage.css";
-import Nav1 from "../Navbar/Nav1.jsx";
 import Footer from "../Footer/Footer.jsx";
+import Nav1 from "../Navbar/Nav1.jsx";
 // import NavB from '../NavBottom/NavB.jsx';
 
 const Homepage = () => {
   return (
     <>
-      <Nav1 />
+      
+<Nav1/>
+<Fullpage>
+  <FullpageNavigation/>
+  
+  <FullPageSections>
+    <section id="sec1">
+      <FullpageSection className="screen1">
 
-      <Fullpage>
+      </FullpageSection>
+    </section>
+    <section id="sec2">
+      <FullpageSection className="screen2">
+        
+      </FullpageSection>
+    </section>
+    <section id="sec3">
+      <FullpageSection className="screen3">
+        
+      </FullpageSection>
+    </section>
+    
+    <section>
+      <FullpageSection >
+        <Footer />
+      </FullpageSection>
+    </section>
+  </FullPageSections>
+
+</Fullpage>
+      {/* <Fullpage>
         <FullpageNavigation />
         <FullPageSections>
           <section id="sec1">
             <FullpageSection className="screen1">
               <h1>Screen01</h1>
-              {/* <NavB /> */}
             </FullpageSection>
           </section>
 
           <section id="sec2">
             <FullpageSection className="screen2">
               <h1>screen2</h1>
-              {/* <NavB /> */}
             </FullpageSection>
           </section>
 
           <section id="sec3">
             <FullpageSection className="screen3">
               <h1>screen3</h1>
-              {/* <NavB /> */}
             </FullpageSection>
           </section>
 
-          {/* <FullpageSection className='screen4'>
-          <h1>screen4</h1>
-        </FullpageSection> */}
+          
 
           <FullpageSection className="screens">
-            <h1>
-              <Footer />
-            </h1>
+            <div className="gap"></div>
+              
+            
           </FullpageSection>
         </FullPageSections>
-      </Fullpage>
+      </Fullpage> */}
     </>
   );
 };

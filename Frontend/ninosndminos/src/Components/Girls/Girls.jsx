@@ -1,13 +1,14 @@
-import React from "react";
+import React from 'react'
 import Nav1 from "../Navbar/Nav1";
-import "./Boys.css";
+import "./Girls.css";
 import Footer from "../Footer/Footer.jsx";
 import Second from '../Second/Second.jsx'
 
 
-const Boys = () => {
+const Girls = () => {
   return (
     <div>
+        <div>
       <Nav1 />
       <Second/>
 
@@ -40,7 +41,7 @@ const Boys = () => {
                   </div>
                   <div className="buy-now">
                     <button>
-                      <a>
+                      <a href="https://codepen.io/sanketbodke/full/mdprZOq">
                         Buy Now
                       </a>
                     </button>
@@ -76,7 +77,7 @@ const Boys = () => {
                   </div>
                   <div className="buy-now">
                     <button>
-                      <a >
+                      <a href="https://codepen.io/sanketbodke/full/mdprZOq">
                         Buy Now
                       </a>
                     </button>
@@ -106,7 +107,7 @@ const Boys = () => {
                   </div>
                   <div className="buy-now">
                     <button>
-                      <a>
+                      <a href="https://codepen.io/sanketbodke/full/mdprZOq">
                         Buy Now
                       </a>
                     </button>
@@ -136,7 +137,7 @@ const Boys = () => {
                   </div>
                   <div className="buy-now">
                     <button>
-                      <a >
+                      <a href="https://codepen.io/sanketbodke/full/mdprZOq">
                         Buy Now
                       </a>
                     </button>
@@ -171,7 +172,7 @@ const Boys = () => {
                   </div>
                   <div className="buy-now">
                     <button>
-                      <a  >
+                      <a href="https://codepen.io/sanketbodke/full/mdprZOq">
                         Buy Now
                       </a>
                     </button>
@@ -201,7 +202,7 @@ const Boys = () => {
                   </div>
                   <div className="buy-now">
                     <button>
-                      <a  >
+                      <a href="https://codepen.io/sanketbodke/full/mdprZOq">
                         Buy Now
                       </a>
                     </button>
@@ -234,7 +235,7 @@ const Boys = () => {
                   </div>
                   <div className="buy-now">
                     <button>
-                      <a  >
+                      <a href="https://codepen.io/sanketbodke/full/mdprZOq">
                         Buy Now
                       </a>
                     </button>
@@ -264,7 +265,7 @@ const Boys = () => {
                   </div>
                   <div className="buy-now">
                     <button>
-                      <a  >
+                      <a href="https://codepen.io/sanketbodke/full/mdprZOq">
                         Buy Now
                       </a>
                     </button>
@@ -299,7 +300,7 @@ const Boys = () => {
                   </div>
                   <div className="buy-now">
                     <button>
-                      <a  >
+                      <a href="https://codepen.io/sanketbodke/full/mdprZOq">
                         Buy Now
                       </a>
                     </button>
@@ -329,7 +330,7 @@ const Boys = () => {
                   </div>
                   <div className="buy-now">
                     <button>
-                      <a  >
+                      <a href="https://codepen.io/sanketbodke/full/mdprZOq">
                         Buy Now
                       </a>
                     </button>
@@ -359,7 +360,7 @@ const Boys = () => {
                   </div>
                   <div className="buy-now">
                     <button>
-                      <a   >
+                      <a href="https://codepen.io/sanketbodke/full/mdprZOq">
                         Buy Now
                       </a>
                     </button>
@@ -389,7 +390,7 @@ const Boys = () => {
                   </div>
                   <div className="buy-now">
                     <button>
-                      <a>
+                      <a href="https://codepen.io/sanketbodke/full/mdprZOq">
                         Buy Now
                       </a>
                     </button>
@@ -440,7 +441,8 @@ const Boys = () => {
         <Footer />
       </div>
     </div>
-  );
-};
+    </div>
+  )
+}
 
-export default Boys;
+export default Girls
