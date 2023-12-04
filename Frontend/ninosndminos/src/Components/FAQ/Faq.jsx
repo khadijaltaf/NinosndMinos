@@ -20,7 +20,7 @@ const Faq = () => {
     <div>
       <Nav />
       <Second />
-<br /><br />
+<br />
       <div className="container">
         <h2 className="heading">Account </h2>
         <Accordion open={open === 1}>

@@ -16,6 +16,8 @@ import Girls from "./Components/Girls/Girls.jsx";
 import Faq from "./Components/FAQ/Faq.jsx";
 import Terms from "./Components/Terms/Terms.jsx";
 import Policy from "./Components/Policy/Policy.jsx";
+import Checkout from "./Components/Checkout/Checkout.jsx";
+import Addbtn from "./Components/Addbtn/Addbtn.jsx";
 
 const routes = createBrowserRouter([
   {
@@ -73,6 +75,14 @@ const routes = createBrowserRouter([
       {
         path: "/terms",
         element: <Terms />,
+      },
+      {
+        path: "/checkout",
+        element: <Checkout />,
+      },
+      {
+        path: "/addbtn",
+        element: <Addbtn />,
       }
     ],
   },
