@@ -8,7 +8,7 @@ const Second = () => {
       <section className=" top-txt-row ">
         <div className="head-row container-row ">
           <div className="head-txt ">
-            <p className='spacing'>Elevate       Everyday       Chic</p>
+            <p className='spacing'>ELEVATE        EVERYDAY       CHIC</p>
           </div>
         </div>
       </section>

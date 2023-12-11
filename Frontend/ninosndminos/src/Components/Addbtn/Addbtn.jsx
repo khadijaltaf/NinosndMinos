@@ -38,7 +38,7 @@ const Addbtn = () => {
                         <span>$49.99</span>
                     </div>
                     <div class="row">
-                        <div class="col-md-4">
+                        {/* <div class="col-md-4">
                             <h4>Color</h4>
                             <div class="colors">
                                 <div class="black"></div>
@@ -46,7 +46,7 @@ const Addbtn = () => {
                                 <div class="white"></div>
                                 <div class="yellow"></div>
                             </div>
-                        </div>
+                        </div> */}
                         <div class="col-md-4 sze">
                             <h5>Size</h5>
                             <select class="size custom-select">

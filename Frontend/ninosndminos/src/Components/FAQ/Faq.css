@@ -10,4 +10,10 @@
 
 .headingacc{
     text-align: left;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+.hh{
+    font-size: 4rem;
+    font-weight: 50px;
 }
