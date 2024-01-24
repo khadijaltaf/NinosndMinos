@@ -7,9 +7,9 @@ import { Link } from "react-router-dom";
 const Nav1 = () => {
   return (
     <>
-      <nav>
+      <nav className="sticky-top">
         <section>
-          <div class="top-bar sticky-top">
+          <div class="top-bar">
             <button
               class="top-bar__nav-toggle hamburger"
               id="top-nav-toggle"
@@ -23,7 +23,7 @@ const Nav1 = () => {
             </button>
 
             <a href="#" class="top-bar__brand">
-              <img src={logo} alt=""/>
+              <img src={logo} alt="" />
             </a>
             <div class="top-bar__contact">
               <a > <Link to='/search'> Search </Link></a>
@@ -31,7 +31,7 @@ const Nav1 = () => {
               <a> <Link to='/cart'><i class="fa-solid fa-cart-shopping"></i></Link></a>
             </div>
 
-            <nav class="top-bar__nav collapsed" id="top-bar__nav">
+            <nav class="top-bar__nav collapsed bars" id="top-bar__nav">
               <div
                 class="offcanvas offcanvas-start"
                 data-bs-scroll="true"
@@ -50,7 +50,7 @@ const Nav1 = () => {
                     type="button"
                     class="btn-close"
                     data-bs-dismiss="offcanvas"
-                    aria-label="Close"
+                    // aria-label="Close"
                   ></button>
                 </div>
                 <div class="offcanvas-body sizes">

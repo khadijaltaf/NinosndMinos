@@ -23,31 +23,31 @@ a) At the moment of delivery, the item or itens are flawed or broken. <br />
 b) The item or items are discovered to be different from what you had purchased, or they do not need the product’s original specifications. 
 
 
-        <br /><br /><br />
+        <br /><br />
 
         2. You must send an email to contactus@ninosandminos.shop notifying us within 7-14 days of delivery, if you want to file a complaint. At Ninos & Minos, we evaluate each issue on an indiviual basis and strive to be fair to both sides. 
 
-        <br /><br /><br />
+        <br /><br />
 
         3. If a defective / faulty / damaged item is shipped, a replacement will be sent. Before any claims are processed, you must email visual proof of the damages item or items with detail and order summary receipt to contactus@ninosandminos.shop within 7-14 days of purchase.
 
 
-        <br /><br /><br />
+        <br /><br />
 
         4. Worn, washed or demaged products are unexchangeable.
 
 
 
-        <br /><br /><br />
+        <br /><br />
 
         5. Item or items purchased on sale can only be exchanged in different size, depending on the size availability.
 
 
-        <br /><br /><br />
+        <br /><br />
 
         6. No refunds at all. 
 
-        <br /><br /><br />
+        <br /><br />
 
         7. The cost of returning items will be borne by the costumer in context with exchange.
 

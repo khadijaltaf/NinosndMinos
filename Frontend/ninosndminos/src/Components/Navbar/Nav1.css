@@ -27,6 +27,10 @@ img{
   
 }
 
+.bars{
+  align-items: left;
+}
+
 .top-bar {
   display: flex;
   min-height: 50px;
@@ -47,6 +51,7 @@ img{
   min-width: 55px;
   text-align: center;
   transition: 0.25s;
+  margin-left: 1%;
 }
 
 .top-bar__nav-toggle:focus {
@@ -204,4 +209,9 @@ img{
   top: 50%;
   transform: translate(-50%, -50%) rotate(-45deg);
   transition: top 0.125s, transform 0.125s 0.25s;
+}
+
+
+.bbt{
+  margin-right: -42px;
 }
