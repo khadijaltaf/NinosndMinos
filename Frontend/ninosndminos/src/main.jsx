@@ -18,6 +18,7 @@ import Terms from "./Components/Terms/Terms.jsx";
 import Policy from "./Components/Policy/Policy.jsx";
 import Checkout from "./Components/Checkout/Checkout.jsx";
 import Addbtn from "./Components/Addbtn/Addbtn.jsx";
+import MD344448 from './Components/AdminPanel/Admin.jsx'
 
 const routes = createBrowserRouter([
   {
@@ -83,6 +84,10 @@ const routes = createBrowserRouter([
       {
         path: "/addbtn",
         element: <Addbtn />,
+      },
+      {
+        path: '/MD344448',
+        element: <MD344448 />,
       }
     ],
   },
