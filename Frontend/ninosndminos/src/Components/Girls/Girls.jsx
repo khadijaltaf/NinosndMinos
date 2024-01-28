@@ -33,11 +33,11 @@ const Girls = () => {
                   </div>
                   <div className="price">
                     &dollar;37.24
-                    <div className="colors">
+                    {/* <div className="colors">
                       <i className="bx bxs-circle red"></i>
                       <i className="bx bxs-circle blue"></i>
                       <i className="bx bxs-circle white"></i>
-                    </div>
+                    </div> */}
                   </div>
                   <div className="buy-now">
                     <button>
@@ -69,11 +69,11 @@ const Girls = () => {
                   </div>
                   <div className="price">
                     &dollar;17.24
-                    <div className="colors">
+                    {/* <div className="colors">
                       <i className="bx bxs-circle green"></i>
                       <i className="bx bxs-circle grey"></i>
                       <i className="bx bxs-circle brown"></i>
-                    </div>
+                    </div> */}
                   </div>
                   <div className="buy-now">
                     <button>
@@ -99,11 +99,11 @@ const Girls = () => {
                   </div>
                   <div className="price">
                     &dollar;27.24
-                    <div className="colors">
+                    {/* <div className="colors">
                       <i className="bx bxs-circle brown"></i>
                       <i className="bx bxs-circle green"></i>
                       <i className="bx bxs-circle blue"></i>
-                    </div>
+                    </div> */}
                   </div>
                   <div className="buy-now">
                     <button>
@@ -129,11 +129,11 @@ const Girls = () => {
                   </div>
                   <div className="price">
                     &dollar;43.67
-                    <div className="colors">
+                    {/* <div className="colors">
                       <i className="bx bxs-circle red"></i>
                       <i className="bx bxs-circle grey"></i>
                       <i className="bx bxs-circle blue"></i>
-                    </div>
+                    </div> */}
                   </div>
                   <div className="buy-now">
                     <button>
@@ -164,11 +164,11 @@ const Girls = () => {
                   </div>
                   <div className="price">
                     &dollar;10.23
-                    <div className="colors">
+                    {/* <div className="colors">
                       <i className="bx bxs-circle blank"></i>
                       <i className="bx bxs-circle blue"></i>
                       <i className="bx bxs-circle brown"></i>
-                    </div>
+                    </div> */}
                   </div>
                   <div className="buy-now">
                     <button>
